@@ -128,7 +128,7 @@ const Portfolio = () => {
     <div>
       <h1>Welcome to My Portfolio</h1>
       <Image 
-        src="/Sammy.jpg" 
+        src= "/Sammy.jpg" 
         alt="Samuel Martei" 
         width={300} 
         height={300} 
