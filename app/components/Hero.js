@@ -6,17 +6,7 @@ export default function Hero() {
       className="relative bg-[#1a1c20] mt-[100px] overflow-hidden"
       id="home"
     >
-      {/* Watermark Image - Only Visible on Mobile */}
-      <div className="absolute inset-0 w-full h-full opacity-10 md:hidden">
-        <Image
-          src="/Prof.jpg"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="left"
-          alt="Watermark"
-        />
-      </div>
-
+    
       <div className="relative max-w-[1200px] mx-auto flex flex-col md:flex-row items-center text-center md:text-left py-[15vh] px-6 md:px-8">
         {/* Text Content */}
         <div className="flex-1">
