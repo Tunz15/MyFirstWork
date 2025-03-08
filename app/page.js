@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
@@ -10,7 +9,6 @@ import Footer from "./components/Footer";
 export default function Page() {
   return (
     <div className=" flex flex-col min-h-screen ">
-      <Header/>
       <Hero/>
       <Experience/>
       <Project/>

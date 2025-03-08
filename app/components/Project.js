@@ -8,6 +8,22 @@ const projects = [
     link: "https://my-new-ten.vercel.app/",
     image: "/portfolio.jpg",  // Image should be relative to the public folder
   },
+
+  {
+    title: "Website Design",
+    description: "Using VS Code in a project, showcasing my skills in coding.",
+    tech: ["Next.js", "CSS", "Vercel", "VS Code"],
+    link: "https://my-new-ten.vercel.app/",
+    image: "/WebCode.png",  // Image should be relative to the public folder
+  },
+
+  {
+    title: "My Works",
+    description: "A personal project built with Note++, showcasing my skills.",
+    tech: ["Next.js", "Tailwind CSS", "Vercel"],
+    link: "https://my-new-ten.vercel.app/",
+    image: "/note.jpg",  // Image should be relative to the public folder
+  },
 ];
 
 export default function Project() {
