@@ -5,7 +5,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 
-export default function Hero() {
+export default function Hero(){
   return (
     <section
       className="relative bg-[#1a1c20] mt-[100px] overflow-hidden"
