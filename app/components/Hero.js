@@ -37,7 +37,7 @@ export default function Hero(){
         {/* Normal Image (Only for larger screens) */}
         <div className="hidden md:block flex-1 relative">
           <Image
-            src="/Prof.jpg"
+            src="Prof.jpg"
             width={600}
             height={600}
             alt="portrait"
@@ -47,4 +47,4 @@ export default function Hero(){
       </div>
     </section>
   );
-}
+};
