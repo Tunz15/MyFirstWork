@@ -31,13 +31,13 @@ export default function Project() {
     <section id="projects" className="py-20 bg-dark text-white">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-white">Projects</h2>
-        <p className="text-lg mt-2">Here are some of the projects I've worked on.</p>
+        <p className="text-lg mt-2">Here are some of the projects I have worked on.</p>
       </div>
 
       <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg">
-            <img src={project.image} alt={project.title} className="rounded-lg mb-4" />
+            <image src={project.image} alt={project.title} className="rounded-lg mb-4" />
             <h3 className="text-2xl font-semibold">{project.title}</h3>
             <p className="text-gray-400 mt-2">{project.description}</p>
             <div className="mt-3">

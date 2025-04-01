@@ -17,7 +17,7 @@ export default function Hero(){
         <div className="flex-1">
           <h1 className="text-4xl md:text-6xl leading-tight text-gray-500">
             <span className="text-white text-xl md:text-2xl block mb-3">
-              Hi, I'm
+              Hi, I am
             </span>
             Samuel <br />
             Martei
