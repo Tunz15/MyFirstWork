@@ -121,6 +121,7 @@ const Contact = () => {
     </section>
   );
 };
+
 import Image from "next/image";
 
 const Portfolio = () => {
