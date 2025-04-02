@@ -37,7 +37,7 @@ export default function Project() {
       <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg">
-            <image src={project.image} alt={project.title} className="rounded-lg mb-4" />
+            <Image src={project.image} alt={project.title} className="rounded-lg mb-4" />
             <h3 className="text-2xl font-semibold">{project.title}</h3>
             <p className="text-gray-400 mt-2">{project.description}</p>
             <div className="mt-3">
