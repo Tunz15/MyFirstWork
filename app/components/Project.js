@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const projects = [
   {
     title: "My Own Portfolio",
@@ -33,8 +33,7 @@ export default function Project() {
         <h2 className="text-4xl font-bold text-white">Projects</h2>
         <p className="text-lg mt-2">Here are some of the projects I have worked on.</p>
       </div>
-
-      <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+         <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <Image src={project.image} alt={project.title} className="rounded-lg mb-4" />
